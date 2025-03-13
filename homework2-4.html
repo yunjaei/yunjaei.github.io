@@ -1,18 +1,63 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 2px solid #000000;
+}
+</style>
 </head>
 <body>
 
-<h2>The picture Element</h2>
+<h2>Two Equal Columns</h2>
 
-<picture>
-  <source srcset="img_avatar.png">
-  <source srcset="img_girl.jpg">
-  <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
-</picture>
+<div class="row">
+  <div class="column">
+    <h2>Column 1</h2>
+    <img src="pic_trulli.jpg" alt="Italian Trulli">
+    <p>Some text..</p>
+  </div>
+  <div class="column">
+   
+  <tr>
+    <th>Company</th>
+ 
+   
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    
+    
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    
+    
+  </tr>
+</table>
+  </div>
+</div>
 
-<p>The picture element can be used when the image format is not supported by all devices.</p>
-
-<p>The device will use the first image format it supports, and ignore the rest of the images.</p>
+</body>
+</html>
