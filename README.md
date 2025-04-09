@@ -13,10 +13,10 @@
 
 [**css_dome.html**](https://yunjaei.github.io/css_dome.html)
 
-[**homework3-1**](https://yunjaei.github.io/css_dome.html)
+[**homework3-1**](https://yunjaei.github.io/homework3-1.html)
 
-[**homework3-2**](https://yunjaei.github.io/css_dome.html)
+[**homework3-2**](https://yunjaei.github.io/homework3-2.html)
 
-[**homework3-3**](https://yunjaei.github.io/css_dome.html)
+[**homework3-3**](https://yunjaei.github.io/homework3-3.html)
 
-[**homework3-4**](https://yunjaei.github.io/css_dome.html)
+[**homework3-4**](https://yunjaei.github.io/homework3-4.html)
